@@ -1,8 +1,14 @@
 from fastapi import FastAPI
 from sqlalchemy import text
-from app.database import engine
+from app.database import engine, Base
+
+# import models so tables are created
+from app.models import user, wallet, ledger
 
 app = FastAPI()
+
+# create tables
+Base.metadata.create_all(bind=engine)
 
 
 @app.get("/")
