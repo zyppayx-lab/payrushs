@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+
+# Env files
+.env
+
+# Uploads
+app/uploads/
+
+# Logs
+*.log
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
