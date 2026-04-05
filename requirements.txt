@@ -27,8 +27,8 @@ APScheduler==3.11.0
 # JWT authentication
 PyJWT==2.8.0
 
-# Optional: HTTP requests (for bank API verification, Paystack)
-httpx==0.26.2
+# HTTP requests (bank API verification, Paystack)
+httpx==1.0.0
 
 # Optional: For decimal-safe money operations
 decimal==1.0.0
